@@ -10,3 +10,8 @@ Some criteria for the project:
 - The docker container should be deployable to Kubernetes via a Helm Chart
 - Results should be posted to a public Github repo with an associated Pull Request.
 - Send us a link to the PR.
+
+Python Script and script dependencies are located in the "dev-ops-challenge" folder.
+Helm Chart files are located in the "python-chart" file.
+
+JSON Output from Python script is located within "dev-ops-challenge" as well, labeled as "swapi-output.json"
