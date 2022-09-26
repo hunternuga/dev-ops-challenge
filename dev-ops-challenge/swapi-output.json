@@ -1,0 +1,82 @@
+{
+    "results": [
+        {
+            "id": 10,
+            "name": "Obi-Wan Kenobi",
+            "films": [
+                {
+                    "title": [
+                        "A New Hope",
+                        "The Empire Strikes Back",
+                        "Return of the Jedi",
+                        "The Phantom Menace",
+                        "Attack of the Clones",
+                        "Revenge of the Sith"
+                    ]
+                }
+            ],
+            "gender": "male",
+            "species": [],
+            "starships": [
+                {
+                    "name": [
+                        "Jedi starfighter",
+                        "Trade Federation cruiser",
+                        "Naboo star skiff",
+                        "Jedi Interceptor",
+                        "Belbullab-22 starfighter"
+                    ]
+                }
+            ],
+            "url": "https://swapi.dev/api/people/10/"
+        },
+        {
+            "id": 4,
+            "name": "Darth Vader",
+            "gender": "male",
+            "species": [],
+            "films": [
+                {
+                    "title": [
+                        "A New Hope",
+                        "The Empire Strikes Back",
+                        "Return of the Jedi",
+                        "Revenge of the Sith"
+                    ]
+                }
+            ],
+            "starships": [
+                {
+                    "name": [
+                        "TIE Advanced x1"
+                    ]
+                }
+            ],
+            "url": "https://swapi.dev/api/people/4/"
+        },
+        {
+            "id": 9,
+            "name": "Coruscant",
+            "climate": "temperate",
+            "terrain": "cityscape, mountains",
+            "residents": [
+                {
+                    "name": [
+                        "Finis Valorum",
+                        "Adi Gallia",
+                        "Jocasta Nu"
+                    ]
+                }
+            ],
+            "url": "https://swapi.dev/api/planets/9/"
+        },
+        {
+            "id": 12,
+            "name": "X-wing",
+            "max_atmosphering_speed": "1050",
+            "manufacturer": "Incom Corporation",
+            "crew": "1",
+            "url": "https://swapi.dev/api/starships/12/"
+        }
+    ]
+}

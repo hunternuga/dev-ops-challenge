@@ -1,0 +1,33 @@
+---
+results:
+  - id: 10
+    name:
+    films:
+      - title:
+    gender:
+    species:
+    starships:
+      - name:
+    url:
+  - id: 4
+    name:
+    gender:
+    species:
+    films:
+      - title:
+    starships:
+      - name:
+    url:
+  - id: 9
+    name: 
+    climate:
+    terrain:
+    residents:
+      - name:
+    url:    
+  - id: 12
+    name:
+    max_atmosphering_speed:
+    manufacturer:
+    crew:
+    url:
