@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: python-chart
+spec:
+  selector:
+    matchLabels:
+      app: python-chart
+  replicas: {{ .Values.replicaCount }}
+  template:
+    metadata:
+      labels:
+        app: python-chart
+    spec:
+      containers:
+      - name: python-chart
+        image: {{ .Values.image.repository }}
