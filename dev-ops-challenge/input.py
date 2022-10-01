@@ -2,6 +2,8 @@ from time import sleep
 from url import *
 import yaml
 
+output_file = 'swapi-output.json'
+
 with open('input.yaml') as s:
     try:
         data = yaml.safe_load(s)
