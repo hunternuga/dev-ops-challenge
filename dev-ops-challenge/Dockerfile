@@ -13,5 +13,5 @@ COPY input.py ./
 COPY url.py ./
 #Copies all necessary files to working directory for container to use.
 
-CMD ["python3","input.py"]
+CMD exec /bin/sh -c "trap : TERM INT; sleep infinity & wait"
 #Keeping docker container alive.
