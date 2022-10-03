@@ -84,4 +84,5 @@ f.write(json.dumps(data, indent=4))
 print(f"Output has been written to {output_file}")
 time.sleep(30)
 #Writing output and sleeping to pull data from
+f.close()
  
