@@ -1,6 +1,6 @@
 image:
   repository: hnuga/devopschallenge
-  tag: 2.8.0
-  pullPolicy: Always
+  pullPolicy: IfNotPresent
+  tag: latest
 
 replicaCount: 1
